@@ -3,30 +3,22 @@ import { baseLayerLuminance, StandardLuminance } from 'https://unpkg.com/@fluent
 const LISTING_URL = "{{ listingInfo.Url }}";
 
 const PACKAGES = {
-{{~ for package in packages ~}}
-  "{{ package.Name }}": {
-    name: "{{ package.Name }}",
-    displayName: "{{ if package.DisplayName; package.DisplayName; end; }}",
-    description: "{{ if package.Description; package.Description; end; }}",
-    version: "{{ package.Version }}",
+  "kesera2.autoapplyloadinbackground": {
+    name: "kesera2.autoapplyloadinbackground",
+    displayName: "Auto Apply Load In Background",
+    description: "Auto Apply Load In Background to AudioClip.",
+    version: "0.0.1",
     author: {
-      name: "{{ if package.Author.Name; package.Author.Name; end; }}",
-      url: "{{ if package.Author.Url; package.Author.Url; end; }}",
+      name: "kesera2",
+      url: "https://github.com/kesera2/",
     },
     dependencies: {
-      {{~ for dependency in package.Dependencies ~}}
-        "{{ dependency.Name }}": "{{ dependency.Version }}",
-      {{~ end ~}}
     },
     keywords: [
-      {{~ for keyword in package.Keywords ~}}
-        "{{ keyword }}",
-      {{~ end ~}}
     ],
     license: "{{ package.License }}",
     licensesUrl: "{{ package.LicensesUrl }}",
   },
-{{~ end ~}}
 };
 
 const setTheme = () => {

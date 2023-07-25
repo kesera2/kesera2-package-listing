@@ -1,7 +1,7 @@
 {
     "name":"Example Listing",
     "id":"kesera2.mochimochitools",
-    "url":"https://kesera2.github.io/kesera2-package-listing/index.json",
+    "url":"https://kesera2.github.io/kesera2-package-listing/source.json",
     "author":{
         "email":"vrckesera2@gmail.com",
         "name":"kesera2",

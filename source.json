@@ -15,13 +15,5 @@
     "bannerUrl":"banner.png",
     "githubRepos":[
         "kesera2/AutoApplyLoadInBackground"
-    ],
-    "packages":[
-        {
-            "name":"kesera2.autoapplyloadinbackground",
-            "releases":[
-                "https://github.com/kesera2/MochimochiTools/releases/download/0.0.1/kesera2.autoapplyloadinbackground-0.0.1.zip",
-            ]
-        }
     ]
 }

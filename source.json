@@ -1,27 +1,26 @@
 {
     "name":"Example Listing",
     "id":"com.vrchat.example-listing",
-    "url":"https://vrchat-community.github.io/template-package-listing/index.json",
+    "url":"https://kesera2.github.io/kesera2-package-listing/index.json",
     "author":{
-        "email":"developer@vrchat.com",
-        "name":"VRChat",
-        "url":"https://hello.vrchat.com"
+        "email":"vrckesera2@gmail.com",
+        "name":"kesera2",
+        "url":"https://github.com/kesera2"
     },
     "description":"Example listing of VRChat packages",
     "infoLink":{
-        "url":"http://github.com/vrchat-community/template-package-listing",
+        "url":"http://github.com/kesera2/kesera2-package-listing",
         "text":"View on GitHub"
     },
     "bannerUrl":"banner.png",
     "githubRepos":[
-        "vrchat-community/clientsim"
+        "kesera2/AutoApplyLoadInBackground"
     ],
     "packages":[
         {
-            "name":"com.vrchat.udonsharp",
+            "name":"kesera2.autoapplyloadinbackground",
             "releases":[
-                "https://github.com/vrchat-community/UdonSharp/releases/download/1.1.7/com.vrchat.UdonSharp.zip",
-                "https://github.com/vrchat-community/UdonSharp/releases/download/1.1.6/com.vrchat.UdonSharp-1.1.6.zip"
+                "https://github.com/kesera2/MochimochiTools/releases/download/0.0.1/kesera2.autoapplyloadinbackground-0.0.1.zip",
             ]
         }
     ]
